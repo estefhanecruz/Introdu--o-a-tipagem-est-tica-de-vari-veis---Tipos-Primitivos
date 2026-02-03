@@ -21,17 +21,15 @@ mensagem personalizada no console.
 ● Teste o código para diferentes idades e nomes.
 */
 const nome = "João";
-const age = 2;
+const age = 20;
 //Resolução com operador ternário
-// const isAdult =
-// 	age >= 18 ? `${nome} é maior de idade` : `${nome} não é maior de idade`;
-// console.log(isAdult);
+const isAdult = age >= 18 ? `${nome} é maior de idade` : `${nome} não é maior de idade`;
+console.log(isAdult);
 //Resolução com if/else
-const isAdult = age >= 18;
-if (isAdult) {
-    console.log(`${nome} é maior de idade`);
-}
-else {
-    console.log(`${nome} não é maior de idade`);
-}
+// const isAdult: boolean = age >= 18;
+// if (isAdult) {
+// 	console.log(`${nome} é maior de idade`);
+// } else {
+// 	console.log(`${nome} não é maior de idade`);
+// }
 //# sourceMappingURL=exercicio.js.map
